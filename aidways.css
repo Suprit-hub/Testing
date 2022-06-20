@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    background-color: black;
+    position: relative;
+    font-family: 'Shippori Antique B1', sans-serif;
+    font-weight: bolder;
+}
+
+.navigation .navbar .navbar-brand {
+    text-decoration: none;
+    color: white;
+}
+
+
+.navigation .nav a {
+
+    font-size: large;
+
+    color: white;
+}
+
+.navigation .nav a:hover {
+
+    color: blanchedalmond;
+    border-radius: 2px solid white;
+}
+
+.products {
+    background-color: #f2f7fd;
+}
+
+.products img {
+    width: 300px;
+    height: 150px;
+}
+
+.products .col {
+    margin-bottom: 1em;
+}
+
+.products h2 {
+    text-align: center;
+}
+
+.products .card .card-body {
+    background: #0e333f;
+}
+
+.products .card-body {
+    color: white;
+}
+
+.content .card h4 {
+    text-align: justify;
+    display: flex;
+}
+
+.content .card img {
+    margin-left: 2%;
+}
+
+.content .card h5,
+.card-text {
+    text-align: center;
+}
+
+.content #paragraphy {
+    font-size: x-large;
+
+}
+
+.content #paragraphy1 {
+    font-size: x-large;
+
+}
+
+.content #about p {
+    font-size: x-large;
+
+}
+
+.content #about h3 {
+    text-align: center;
+}
+
+
+
+.home {
+    position: relative;
+}
+
+.home-info {
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 140px;
+    left: 5%;
+    right: 5%;
+    text-align: center;
+    background-color: rgba(211, 211, 211, 0.2);
+    border-radius: 10px;
+}
+
+.home-info #homepara1,
+#homepara2 {
+    font-size: x-large;
+    font-family: monospace;
+}
+
+.logo-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+
+}
+
+.logo-info img {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    height: 150px;
+    width: 170px;
+}
+
+.logo-info h4 {
+    text-align: right;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    margin-top: 4.5em;
+    margin-right: 30px;
+
+    font-size: 15px;
+    font-weight: 700;
+    display: grid;
+}
+
+.logo-info p {
+    text-align: right;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+
+    margin-right: 30px;
+    font-size: large;
+    font-size: 10px;
+}
+
+@media (max-width:540px) {
+    .home-info {
+        font-size: 15px;
+    }
+}
